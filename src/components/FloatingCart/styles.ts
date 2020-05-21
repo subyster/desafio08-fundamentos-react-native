@@ -8,7 +8,7 @@ export const Container = styled.View`
   background: #e83f5b;
 
   padding: 0 20px;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 `;
 
@@ -34,6 +34,7 @@ export const CartButton = styled.TouchableOpacity`
 
 export const CartButtonText = styled.Text`
   font-weight: bold;
+  font-size: 16px;
   color: #fff;
   margin-left: 15px;
   flex: 1;
